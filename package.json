@@ -1,0 +1,65 @@
+{
+  "name": "react-portfolio",
+  "version": "0.1.0",
+  "homepage": "",
+  "description": "A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!",
+  "repository": "https://github.com/taniyow/react-portfolio",
+  "author": "Mark Tan <markcmtan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.9",
+    "@mui/lab": "^6.0.0-beta.17",
+    "@mui/material": "^6.1.9",
+    "@mui/styles": "^6.1.9",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.2.6",
+    "ios-inner-height": "^1.1.1",
+    "popmotion": "^8.7.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.1",
+    "sweetalert2": "^11.4.10",
+    "three": "^0.125.0",
+    "use-dencrypt-effect": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && react-snapshot",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "reactSnapshot": {
+    "exclude": [
+      "/resume"
+    ],
+    "snapshotDelay": 1000
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "emailjs": "^4.0.0"
+  },
+  "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
+}
