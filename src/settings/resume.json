@@ -38,49 +38,9 @@
                 "username": "charlescoldwell",
                 "url": "https://github.com/charlescoldwell",
                 "x_icon": "fab fa-github"
-            },
-            {
-                "network": "GitLab",
-                "username": "charlescoldwell",
-                "url": "https://gitlab.com/charlescoldwell",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "charlescoldwell",
-                "url": "https://t.me/PLACEHOLDERcharlescoldwell",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "charlescoldwell#XXXX",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
             }
         ]
     },
-    "work": [
-        {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
     "education": [
         {
             "institution": "University",
@@ -88,25 +48,7 @@
             "studyType": "DAEU",
             "startDate": "2018-09-01",
             "endDate": "2019-06-01",
-            "gpa": "XXX",
             "courses": ["Français 10 - Maths 10 - Anglais B1"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
         }
     ],
     "skills": [
@@ -130,12 +72,6 @@
         {
             "name": "Photography",
             "keywords": ["Photography", "Outdoors", "Composition"]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference..."
         }
     ]
 }

@@ -8,11 +8,9 @@ import  TextDecrypt  from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
 import Kasa from '../../assets/recentprojects/kasa.png';
+import Events from '../../assets/recentprojects/724Events.png';
+import ArgentBank from '../../assets/recentprojects/argentBank.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -27,44 +25,24 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
-    },
-    { 
-      id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
-    },
-    { 
-      id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
-    },
-    { 
-      id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-    },
-    { 
-      id: 5,
       title: 'Kasa', 
       description: `Un projet Openclassrooms pour une entreprise de location d’appartements entre particuliers en France utilisant React.`,
       alter: 'Kasa Project',
       image: `${Kasa}`,
+    },
+    { 
+      id: 2,
+      title: '724 Events', 
+      description: `Un projet Openclassrooms de débuggage d'un site d'une agence d'événementiel. (cahier de recette,test unitaire et fonctionels)`,
+      alter: '724 Events',
+      image: `${Events}`,
+    },
+    { 
+      id: 3,
+      title: 'Argent Bank', 
+      description: `Un projet Openclassrooms sur le développement front-end d’une application bancaire en utilisant React et Redux. (front-end, back-end, routes API)`,
+      alter: 'Argent Bank',
+      image: `${ArgentBank}`,
     },
   ]);
 
