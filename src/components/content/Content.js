@@ -28,7 +28,7 @@ export const Content = () => {
   const classes = useStyles();
 
   return (
-    <Container component="main" className={classes.main} maxWidth="md">
+    <Container component="main" className={classes.main} maxWidth="100vw">
       <div className={classes.heading}>
         <Typography variant="h5" component="h2">
             <TextDecrypt text={`${FirstName} ${LastName}`} />

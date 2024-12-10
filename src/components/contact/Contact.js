@@ -56,7 +56,7 @@ export const Contact = () => {
 
     return (
       <section id="contact">
-        <Container component="main" className={classes.main} maxWidth="md">
+        <Container component="main" className={classes.main} maxWidth="100vw">
           <div className="contact">
             <div className="_form_wrapper">
               <form ref={form} onSubmit={sendEmail} className={classes.form}>

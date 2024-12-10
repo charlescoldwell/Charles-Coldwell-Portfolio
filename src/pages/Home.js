@@ -6,11 +6,12 @@ import { DisplacementSphere } from "../components/background/DisplacementSphere"
 import { ThemeToggle } from "../components/theme/ThemeToggle";
 import { Resume } from "../components/resume/Resume";
 import { SocialIcons } from "../components/content/SocialIcons";
-import { SpeedDials } from "../components/speedDial/SpeedDial";
+import { SpeedDials } from "../components/speedDial/SpeedDials";
 import { SideNavbar } from "../components/nav/SideNavbar";
 import { Works } from "../components/works/Works";
 import { About } from "../components/about/About";
 import { Contact } from "../components/contact/Contact";
+import { ScrollHandler } from "../components/content/ScrollHandler";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -22,7 +23,7 @@ const useStyles = makeStyles(() => ({
 
 export const Home = () => {
   const classes = useStyles();
-  console.log("classes ===>",classes)
+  // console.log("classes ===>",classes)
 
   return (
     <>
@@ -31,8 +32,10 @@ export const Home = () => {
         <LogoLink />
         <Content />
         <ThemeToggle />
+        <ScrollHandler>
           <SocialIcons />
           <SpeedDials />
+        </ScrollHandler>
         <Resume />
       </div>
       <SideNavbar />

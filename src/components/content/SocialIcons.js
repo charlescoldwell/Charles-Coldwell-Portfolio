@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'fixed',
     top: theme.spacing(6),
     right: theme.spacing(6),
+    transition: 'opacity 0.5s ease', // Smooth transition for opacity
   },
   iconButton: {
     height: '2.5rem',
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const SocialIcons = () => {
+export const SocialIcons = ({ visible }) => {
   const classes = useStyles();
 
   const socialItems = Resume.basics.profiles.map((socialItem) => (
@@ -48,5 +49,9 @@ export const SocialIcons = () => {
     </Link>
   ));
 
-  return <div className={classes.socialIcons}>{socialItems}</div>;
+  return (
+    <div className={classes.socialIcons} style={{ opacity: visible ? 1 : 0 }}>
+      {socialItems}
+    </div>
+  );
 };

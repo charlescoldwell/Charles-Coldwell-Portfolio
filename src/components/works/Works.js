@@ -48,7 +48,7 @@ export const Works = () => {
 
   return (
     <section id="works">
-      <Container component="main" className={classes.main} maxWidth="md">
+      <Container component="main" className={classes.main} maxWidth="100vw">
         {projects.map((project) => (
           <div className="project" key={ project.id }>
             <div className="__img_wrapper">

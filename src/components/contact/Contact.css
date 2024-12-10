@@ -11,7 +11,6 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.51);
   width: 28em;
-  height: 28em;
   padding: 2em;
 }
 
@@ -19,7 +18,7 @@
   margin-right: 20px;
   text-decoration: none;
   color: #ffff;
-  background-color: #0a0a0a;
+  background-color: #0a0a0a00;
   padding: 10px;
   border-radius: 10px;
 }

@@ -26,7 +26,7 @@ export const About = () => {
 
   return (
     <section id="about">
-      <Container component="main" className={classes.main} maxWidth="md">
+      <Container component="main" className={classes.main} maxWidth="100vw">
         <div className="about">
           <div className="_img"
             style={{ 
@@ -46,7 +46,7 @@ export const About = () => {
             </p>
             <a href="#contact" className="contact-btn">
               <i className="fas fa-terminal"></i>
-              <Typography component='span'> Send me a message.</Typography>
+              <Typography component='span'> Envoyez moi un message :)</Typography>
             </a>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@mui/styles';
 import { Typography, Link } from '@mui/material';
 import  TextDecrypt  from '../content/TextDecrypt';
-import ResumePDF from './../../assets/Tan_Mark_Resume.pdf';
+import ResumePDF from './../../assets/Charles_Frederic_Coldwell_CV.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';

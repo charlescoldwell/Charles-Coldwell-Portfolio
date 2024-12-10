@@ -9,7 +9,7 @@ export const white = `${Settings.colors.white}`;
 export const LightTheme = responsiveFontSizes(
   createTheme({
     palette: {
-      type: 'light',
+      mode: 'light', // Changed from type to mode to align with MUI v5
       primary: {
         main: primary,
       },
@@ -44,12 +44,19 @@ export const LightTheme = responsiveFontSizes(
         fontFamily: 'Roboto Mono, monospace',
       },
     },
-    overrides: {
+    components: {
       MuiCssBaseline: {
-        '@global': {
+        styleOverrides: {
           body: {
-            color: black,
+            color: black, // Text color for light theme
             backgroundColor: white,
+          },
+        },
+      },
+      MuiTypography: {
+        styleOverrides: {
+          root: {
+            color: black, // Ensure Typography text color is also correct
           },
         },
       },
@@ -77,27 +84,6 @@ export const LightTheme = responsiveFontSizes(
             backgroundColor: primary,
           },
           transition: 'all 0.5s ease !important',
-        },
-      },
-      MuiSpeedDialAction: {
-        fab: {
-          color: white,
-          backgroundColor: 'transparent',
-          '&:hover': {
-            color: white,
-            backgroundColor: primary,
-          },
-          transition: 'all 0.5s ease',
-          margin: '0px',
-          marginBottom: '16px',
-        },
-      },
-      MuiTooltip: {
-        tooltip: {
-          fontFamily: 'Roboto Mono, monospace',
-          backgroundColor: primary,
-          color: black,
-          fontSize: 12,
         },
       },
     },
@@ -107,7 +93,7 @@ export const LightTheme = responsiveFontSizes(
 export const DarkTheme = responsiveFontSizes(
   createTheme({
     palette: {
-      type: 'dark',
+      mode: 'dark', // Changed from type to mode to align with MUI v5
       primary: {
         main: primary,
       },
@@ -142,12 +128,19 @@ export const DarkTheme = responsiveFontSizes(
         fontFamily: 'Roboto Mono, monospace',
       },
     },
-    overrides: {
+    components: {
       MuiCssBaseline: {
-        '@global': {
+        styleOverrides: {
           body: {
-            color: white,
+            color: white, // Text color for dark theme
             backgroundColor: black,
+          },
+        },
+      },
+      MuiTypography: {
+        styleOverrides: {
+          root: {
+            color: white, // Ensure Typography text color is also correct
           },
         },
       },
@@ -175,27 +168,6 @@ export const DarkTheme = responsiveFontSizes(
             backgroundColor: primary,
           },
           transition: 'all 0.5s ease !important',
-        },
-      },
-      MuiSpeedDialAction: {
-        fab: {
-          color: white,
-          backgroundColor: 'transparent',
-          '&:hover': {
-            color: white,
-            backgroundColor: primary,
-          },
-          transition: 'all 0.5s ease',
-          margin: '0px',
-          marginBottom: '16px',
-        },
-      },
-      MuiTooltip: {
-        tooltip: {
-          fontFamily: 'Roboto Mono, monospace',
-          backgroundColor: primary,
-          color: white,
-          fontSize: 12,
         },
       },
     },
