@@ -18,9 +18,11 @@ export const App = () => {
         <Router>
           <HelmetMeta />
           <Switch>
+            <Router basename="/Charles-Coldwell-Portfolio">
               <Route path="/" exact component={Home} />
               {/* <Route path="/resume" component={Resume} /> */}
               <Route path="*" component={PageNotFound} />
+            </Router>
           </Switch>
         </Router>
       </TheThemeProvider>

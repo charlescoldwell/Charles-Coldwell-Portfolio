@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/charlescoldwell/Charles-Coldwell-Portfolio",
+  "homepage": "https://charlescoldwell.github.io/Charles-Coldwell-Portfolio",
   "description": "Web dev porfolio. Credits to Mark Tan!",
   "repository": "https://github.com/charlescoldwell/Charles-Coldwell-Portfolio",
   "author": "Charles Coldwell <coldwell.charles@gmail.com>",
@@ -29,13 +29,16 @@
     "react-transition-group": "^4.4.1",
     "sweetalert2": "^11.4.10",
     "three": "^0.125.0",
-    "use-dencrypt-effect": "^2.0.0"
+    "use-dencrypt-effect": "^2.0.0",
+    "gh-pages": "^6.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "reactSnapshot": {
     "exclude": [
@@ -59,7 +62,8 @@
     ]
   },
   "devDependencies": {
-    "emailjs": "^4.0.0"
+    "emailjs": "^4.0.0",
+    "gh-pages": "^6.2.0"
   },
   "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
 }
