@@ -21,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const Works = () => {
+  const handleLinkClick = (url) => {
+    window.open(url, "_blank");
+  };
   const classes = useStyles();
   const [projects, setProjects] = useState([
     { 
@@ -29,6 +32,8 @@ export const Works = () => {
       description: `Un projet Openclassrooms pour une entreprise de location d’appartements entre particuliers en France utilisant React.`,
       alter: 'Kasa Project',
       image: `${Kasa}`,
+      github: 'https://github.com/charlescoldwell/Kasa',
+      githubpages: 'https://charlescoldwell.github.io/Kasa/',
     },
     { 
       id: 2,
@@ -36,6 +41,8 @@ export const Works = () => {
       description: `Un projet Openclassrooms de débuggage d'un site d'une agence d'événementiel. (cahier de recette,test unitaire et fonctionels)`,
       alter: '724 Events',
       image: `${Events}`,
+      github: 'https://github.com/charlescoldwell/724eventsProjetOC',
+      githubpages: 'https://charlescoldwell.github.io/724eventsProjetOC',
     },
     { 
       id: 3,
@@ -43,6 +50,7 @@ export const Works = () => {
       description: `Un projet Openclassrooms sur le développement front-end d’une application bancaire en utilisant React et Redux. (front-end, back-end, routes API)`,
       alter: 'Argent Bank',
       image: `${ArgentBank}`,
+      github: 'https://github.com/charlescoldwell/724eventsProjetOC',
     },
   ]);
 
@@ -52,7 +60,7 @@ export const Works = () => {
         {projects.map((project) => (
           <div className="project" key={ project.id }>
             <div className="__img_wrapper">
-              <img src={ project.image } alt={ project.alter }/>
+              <img onClick={() =>handleLinkClick(project.githubpages?project.githubpages:project.github)} src={ project.image } alt={ project.alter } style={{ cursor: 'pointer' }}/>
             </div>
             <div className="__content_wrapper">
               <h3 className="title">
@@ -61,6 +69,7 @@ export const Works = () => {
               <p className="description">
                 { project.description }
               </p>
+              <i className="fab fa-3x fa-github" onClick={() => handleLinkClick(project.github)} style={{ cursor: 'pointer' }}/>
             </div>
           </div>
         ))}

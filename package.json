@@ -1,5 +1,5 @@
 {
-  "name": "react-portfolio",
+  "name": "charles-coldwell-portfolio",
   "version": "0.1.0",
   "homepage": "https://charlescoldwell.github.io/Charles-Coldwell-Portfolio",
   "description": "Web dev porfolio. Credits to Mark Tan!",
@@ -7,7 +7,7 @@
   "author": "Charles Coldwell <coldwell.charles@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@emailjs/browser": "^3.6.2",
+    "@emailjs/browser": "^3.12.1",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "@mui/icons-material": "^6.1.9",
@@ -30,8 +30,7 @@
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.1",
     "sweetalert2": "^11.4.10",
-    "three": "^0.125.0",
-    "use-dencrypt-effect": "^2.0.0"
+    "three": "^0.125.0"
   },
   "scripts": {
     "start": "react-scripts start",
