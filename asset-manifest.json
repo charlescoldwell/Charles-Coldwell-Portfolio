@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Charles-Coldwell-Portfolio/static/css/main.dad8c881.css",
-    "main.js": "/Charles-Coldwell-Portfolio/static/js/main.9b4e9f5f.js",
+    "main.js": "/Charles-Coldwell-Portfolio/static/js/main.9fd7f0c8.js",
     "static/js/3.510d902c.chunk.js": "/Charles-Coldwell-Portfolio/static/js/3.510d902c.chunk.js",
     "static/media/724Events.png": "/Charles-Coldwell-Portfolio/static/media/724Events.f2dc0be5cc5097d7497f.png",
     "static/media/kasa.png": "/Charles-Coldwell-Portfolio/static/media/kasa.a13ee0641294552b577e.png",
     "static/media/argentBank.png": "/Charles-Coldwell-Portfolio/static/media/argentBank.6686ee04e6612bc832a1.png",
+    "static/media/Charles_Frederic_Coldwell_CV.pdf": "/Charles-Coldwell-Portfolio/static/media/Charles_Frederic_Coldwell_CV.d219dbd6a9995afaa72c.pdf",
     "static/media/profile.png": "/Charles-Coldwell-Portfolio/static/media/profile.2108d15a4094a4a5797d.png",
     "static/media/mt-logo.svg": "/Charles-Coldwell-Portfolio/static/media/mt-logo.453a2bc7420c64ad385050e8d9b977f5.svg",
-    "static/media/Charles_Frederic_Coldwell_CV.pdf": "/Charles-Coldwell-Portfolio/static/media/Charles_Frederic_Coldwell_CV.83d9fcda4f780fe6e18a.pdf",
     "index.html": "/Charles-Coldwell-Portfolio/index.html",
     "main.dad8c881.css.map": "/Charles-Coldwell-Portfolio/static/css/main.dad8c881.css.map",
-    "main.9b4e9f5f.js.map": "/Charles-Coldwell-Portfolio/static/js/main.9b4e9f5f.js.map",
+    "main.9fd7f0c8.js.map": "/Charles-Coldwell-Portfolio/static/js/main.9fd7f0c8.js.map",
     "3.510d902c.chunk.js.map": "/Charles-Coldwell-Portfolio/static/js/3.510d902c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dad8c881.css",
-    "static/js/main.9b4e9f5f.js"
+    "static/js/main.9fd7f0c8.js"
   ]
 }
