@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Charles-Coldwell-Portfolio/static/css/main.6e5ed4f9.css",
+    "main.css": "/Charles-Coldwell-Portfolio/static/css/main.7c2af6c6.css",
     "main.js": "/Charles-Coldwell-Portfolio/static/js/main.4a8c035c.js",
     "static/js/3.510d902c.chunk.js": "/Charles-Coldwell-Portfolio/static/js/3.510d902c.chunk.js",
     "static/media/724Events.png": "/Charles-Coldwell-Portfolio/static/media/724Events.f2dc0be5cc5097d7497f.png",
@@ -10,12 +10,12 @@
     "static/media/profile.png": "/Charles-Coldwell-Portfolio/static/media/profile.2108d15a4094a4a5797d.png",
     "static/media/mt-logo.svg": "/Charles-Coldwell-Portfolio/static/media/mt-logo.453a2bc7420c64ad385050e8d9b977f5.svg",
     "index.html": "/Charles-Coldwell-Portfolio/index.html",
-    "main.6e5ed4f9.css.map": "/Charles-Coldwell-Portfolio/static/css/main.6e5ed4f9.css.map",
+    "main.7c2af6c6.css.map": "/Charles-Coldwell-Portfolio/static/css/main.7c2af6c6.css.map",
     "main.4a8c035c.js.map": "/Charles-Coldwell-Portfolio/static/js/main.4a8c035c.js.map",
     "3.510d902c.chunk.js.map": "/Charles-Coldwell-Portfolio/static/js/3.510d902c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e5ed4f9.css",
+    "static/css/main.7c2af6c6.css",
     "static/js/main.4a8c035c.js"
   ]
 }
