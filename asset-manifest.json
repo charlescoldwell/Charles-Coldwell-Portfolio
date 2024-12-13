@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Charles-Coldwell-Portfolio/static/css/main.dad8c881.css",
-    "main.js": "/Charles-Coldwell-Portfolio/static/js/main.9fd7f0c8.js",
+    "main.css": "/Charles-Coldwell-Portfolio/static/css/main.6e5ed4f9.css",
+    "main.js": "/Charles-Coldwell-Portfolio/static/js/main.4a8c035c.js",
     "static/js/3.510d902c.chunk.js": "/Charles-Coldwell-Portfolio/static/js/3.510d902c.chunk.js",
     "static/media/724Events.png": "/Charles-Coldwell-Portfolio/static/media/724Events.f2dc0be5cc5097d7497f.png",
     "static/media/kasa.png": "/Charles-Coldwell-Portfolio/static/media/kasa.a13ee0641294552b577e.png",
@@ -10,12 +10,12 @@
     "static/media/profile.png": "/Charles-Coldwell-Portfolio/static/media/profile.2108d15a4094a4a5797d.png",
     "static/media/mt-logo.svg": "/Charles-Coldwell-Portfolio/static/media/mt-logo.453a2bc7420c64ad385050e8d9b977f5.svg",
     "index.html": "/Charles-Coldwell-Portfolio/index.html",
-    "main.dad8c881.css.map": "/Charles-Coldwell-Portfolio/static/css/main.dad8c881.css.map",
-    "main.9fd7f0c8.js.map": "/Charles-Coldwell-Portfolio/static/js/main.9fd7f0c8.js.map",
+    "main.6e5ed4f9.css.map": "/Charles-Coldwell-Portfolio/static/css/main.6e5ed4f9.css.map",
+    "main.4a8c035c.js.map": "/Charles-Coldwell-Portfolio/static/js/main.4a8c035c.js.map",
     "3.510d902c.chunk.js.map": "/Charles-Coldwell-Portfolio/static/js/3.510d902c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad8c881.css",
-    "static/js/main.9fd7f0c8.js"
+    "static/css/main.6e5ed4f9.css",
+    "static/js/main.4a8c035c.js"
   ]
 }
